@@ -1,11 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Link } from 'expo-router';
+import { StyleSheet, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <StatusBar style="auto" />
-      <Text>Open up App.js to start working on your app!</Text>
+      <Link href="/pocs/cards">Go to Cards</Link>
     </View>
   );
 }
