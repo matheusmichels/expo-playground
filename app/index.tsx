@@ -4,7 +4,7 @@ import { StyleSheet, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Link href="/pocs/cards">Go to Cards</Link>
+      <Link href="/storyline">Storyline</Link>
     </View>
   );
 }
